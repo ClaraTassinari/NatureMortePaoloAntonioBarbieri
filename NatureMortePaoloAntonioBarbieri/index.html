@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Nature Morte di Paolo Antonio Barbieri</title>
+  <link rel="shortcut icon" href="img/favicon.png" />
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+
+  <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!-- header -->
+  <header class="container-fluid bg-green-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <!--
+          <img src="img/favicon.png" title="Header" class="img-center img-s" />
+          -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-green-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-link active" href="#">Home</a>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Collezione
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Cibo</a></li>
+            <li><a class="dropdown-item" href="#">Argenti</a></li>
+            <li><a class="dropdown-item" href="#">Selvaggina</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+      <a class="nav-link" href="artista.html">Artista</a>
+      <a class="nav-link" href="#">Mappa</a>
+    </div>
+  </div>
+</nav>
+
+<!--Breadcrumbs-->
+<nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb">
+  <div class="padding-s bg-gray">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active text-light" aria-current="page">Home</li>
+    </ol>
+  </div>
+</nav>
+
+<!-- header -->
+<header class="bg-gray container-fluid padding-md">
+  <div class="text-center txt-light container" class="bg">
+    <img src="img/spezieria.jpg" class="img-fluid" alt="spezieria">
+    <div class="centered">
+      <h1> Nature Morte</h1>
+        <h2>di Paolo Antonio Barbieri</h2>
+    </div>
+  </div>
+</header>
+
+<!--main-->
+<main>
+  <!-- informazioni sul progetto e accesso al catalogo -->
+  <section class="bg-green-dark text-light">
+    <div class="container-fluid padding-md">
+      <div class="row">
+        <div class="col-md-4 text-center padding-m">
+          <h1 class="padding-m margin-top font-size-l">Chi è Paolo Antonio Barbieri?</h1>
+          <a type="button" class="btn btn-light btn-lg" href="artista.html">Scopri</a>
+        </div>
+        <div class="col-md-8 img-fluid">
+          <img src="img/ritratto.jpg" class="img-fluid padding-m" alt="ritratto">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Collezione-->
+  <section class="bg-green-light text-dark">
+    <div class="container-fluid padding-md">
+      <div class="row">
+        <div class="col-md-4 container padding-m">
+          <img src="opere/cibo/frutta.jpg" class="img-fluid padding-m rounded-circle" alt="Frutta">
+            <div class="centered">
+              <a class="text-light" href=""><h3>Cibo</h3></a>
+            </div>
+        </div>
+        <div class="col-md-4 container padding-m">
+         <img src="opere/oggetti/giare.jpeg" class="img-fluid padding-m rounded-circle" alt="Giare">
+          <div class="centered">
+              <a class="text-light" href=""><h3>Oggetti</h3></a>
+          </div>
+        </div>
+        <div class="col-md-4 container padding-m">
+          <img src="opere/selvaggina/giare.jpeg" class="img-fluid padding-m rounded-circle" alt="Selvaggina">
+            <div class="centered">
+              <a class="text-light" href=""><h3>Selvaggina</h3></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--Timeline--> 
+  <section class="bg-green-dark text-light">
+    <div class="container-fluid padding-md">
+      <div class="row">
+        <div class="col-md-10 padding-m">
+        </div>
+        <div class="col-md-2 img-fluid">
+        </div>
+      </div>
+    </div>
+          
+  </section>
+
+  <!-- pre-footer -->
+  <section class="text-center padding-s container-fluid">
+    <span><a href="#" title="Credits" class="text-dark">Credits</a></span>
+    <span> | </span>
+    <span><a href="#" title="Licenze" class="text-dark">Licenze</a></span>
+  </section>
+
+</main>
+<!-- footer -->
+<footer class="bg-gray text-light padding-m container-fluid text-center">
+        © Copyright (c) 2021 by /DH.arc - Digital Humanities Advanced Research
+        Centre.
+</footer>
+
+
+<script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
