@@ -1,4 +1,4 @@
-/* body */
+/* body 
 body {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -6,7 +6,7 @@ body {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-}
+}*/
 
 
 /* background */
@@ -37,12 +37,16 @@ body {
     color: #1a1f15;
 }
 /*padding*/
+.padding-s {
+    padding: 10px
+}
+
 .padding-m {
     padding: 30px
 }
 
-.padding-s {
-    padding: 10px
+.padding-xl {
+    padding: 90px
 }
 
 /*margin*/
@@ -50,9 +54,18 @@ body {
     margin:5rem;
 }
 
+.margin-bottom {
+    margin:0rem;
+}
+
+
 /* font-size */
 .font-size-l {
     font-size: 3rem;
+}
+
+.font-size-s {
+    font-size: 20px;
 }
 
  /* Container holding the image and the text */
@@ -88,6 +101,7 @@ a:active {
     text-decoration: underline;
 }
 
-* {
+/* {
   box-sizing: border-box;
-}
+}*/
+
