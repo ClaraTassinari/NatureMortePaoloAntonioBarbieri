@@ -45,6 +45,10 @@ body {
     padding: 30px
 }
 
+.padding-l {
+    padding: 50px
+}
+
 .padding-xl {
     padding: 90px
 }
@@ -101,7 +105,5 @@ a:active {
     text-decoration: underline;
 }
 
-/* {
-  box-sizing: border-box;
-}*/
+
 

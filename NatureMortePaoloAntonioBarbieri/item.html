@@ -6,7 +6,7 @@
   <link rel="shortcut icon" href="img/favicon.png" />
   <link rel="stylesheet" type="text/css" href="style/style.css" />
 
-  <!--bootstrap css-->
+  <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -20,7 +20,7 @@
     </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-link active" href="index.html">Home</a>
+      <a class="nav-link active" href="#">Home</a>
       <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
@@ -35,7 +35,7 @@
         </li>
       </ul>
     </div>
-      <a class="nav-link" href="#">Artista</a>
+      <a class="nav-link" href="artista.html">Artista</a>
       <a class="nav-link" href="#">Mappa</a>
     </div>
   </div>
@@ -43,46 +43,81 @@
 
 <!--Breadcrumbs-->
 <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb">
-  <div class="padding-s bg-gray text-light">
+  <div class="padding-s bg-gray">
     <ol class="breadcrumb">
       <li class="breadcrumb-item text-light"><a class="text-light" href="index.html">Home</a></li>
-      <li class="breadcrumb-item active text-light" aria-current="page">Artista</li>
+      <li class="breadcrumb-item active text-light" aria-current="page">Vivande</li>
+      
     </ol>
   </div>
 </nav>
 
-
-
-<!-- section -->
-<section class="bg-gray container-fluid padding-xl">
-  <div class="text-center txt-light container">
+<!-- header -->
+<header class="bg-gray container-fluid padding-l">
+  <div class="text-center txt-light container" class="bg">
     <div class="centered">
-      <h1>Paolo Antonio Barbieri</h1>
-      <h3>Cento, 1603 – Bologna, 1649</h3>
-      </div>
+      <h2>Natura morta con asparagi, pesci e lumache</h2>
+      <!--<h1>VIVANDE</h1>-->
     </div>
   </div>
-</section>
+</header>
 
 <!--main-->
 <main>
-  
-<!--Informazioni-->
-  <section class="bg-green-light text-dark">
+  <!-- collezione -->
+  <section class="bg-green-light padding-m">
     <div class="container-fluid padding-m">
       <div class="row">
-        <div class="col-md-8 text-center padding-s">
-          <h4 class="padding-s">Biografia</h4>
-          <p class="font-size-s">Paolo Antonio Barbieri è stato un pittore italiano specializzato soprattutto nella rappresentazione di nature morte.
-          Apprese dal fratello maggiore Giovanni Francesco, detto il <a href="https://it.wikipedia.org/wiki/Guercino" class="text-light">Guercino</a>, le tecniche pittoriche di base. Il Guercino aiutò Paolo Antonio nella realizzazione pratica di alcune sue opere, aggiungendovi figure. Inizialmente legato alle tecniche chiaroscurali del fratello, Paolo Antonio si distaccò da questo stile, per affiancarsi ad un maggior naturalismo pittorico, preservando l'impiego di colori sgargianti che aveva iniziato ad applicare sin dai primi anni di attività. Morì prematuramente a 46 anni a Bologna nel 1649, prima del Guercino.</p>  
+        <div class="col-md-4 container padding-m">
+          <div class="card padding-s text-dark centered" style="width: 18rem;">
+          <img src="opere/vivande/asparagi.jpg" class="card-img-top" alt="asparagi">
+            <div class="card-body">
+              <h5 class="card-title">Natura morta con asparagi, pesci e lumache</h5>
+              <a href="#" class="btn btn-dark">Visita</a>
+            </div>
+          </div> 
         </div>
-        <div class="col-md-4 img-fluid">
-          <img src="img/ritratto.jpg" class="img-fluid padding-m" alt="ritratto">
-          <p class="text-center margin-bottom">Paolo Antonio Barbieri</p>
-            <h6 class="fw-bold text-center">Ritratto del Guercino e della sorella Lucia Barbieri assieme a un gatto e a un cane Lagotto, olio su tela</h6>
+        <div class="col-md-4 container padding-m">
+          <div class="card padding-s text-dark centered" style="width: 18rem;">
+          <img src="opere/vivande/castagne.jpg" class="card-img-top" alt="castagne">
+            <div class="card-body">
+            <h5 class="card-title">Natura morta di cucina con castagne</h5>
+            <a href="#" class="btn btn-dark">Visita</a>
+            </div>
+          </div>
+        </div> 
+        <div class="col-md-4 container padding-m">
+          <div class="card padding-s text-dark centered" style="width: 18rem;">
+          <img src="opere/vivande/frutta.jpg" class="card-img-top" alt="frutta">
+            <div class="card-body">
+            <h5 class="card-title">Natura morta con pere, pesche, fichi, un melone, cavoli e zucchine</h5>
+            <a href="#" class="btn btn-dark">Visita</a>
+            </div>
+          </div>
+          
         </div>
-      </div>
+
     </div>
+  </section>
+
+  <section class="bg-green-dark padding-m container-fluid">
+   <!--<nav aria-label="Page navigation example"-->
+      <ul class="pagination justify-content-center margin-bottom">
+        <li class="page-item">
+        <a class="page-link text-dark" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        </a>
+        </li>
+        <li class="page-item active" aria-current="page"><a class="page-link text-dark" href="#">1</a></li>
+        <li class="page-item"><a class="page-link text-dark" href="vivandebis.html">2</a></li>
+        <li class="page-item"><a class="page-link text-dark" href="#">3</a></li>
+        <li class="page-item">
+        <a class="page-link text-dark" href="vivandebis.html" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        </a>
+        </li>
+      </ul>
+</nav>
   </section>
 
   <!-- pre-footer -->
