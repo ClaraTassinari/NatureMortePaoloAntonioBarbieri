@@ -10,15 +10,15 @@ body {
 
 
 /* background */
-.bg-green-dark {
-    background-color: #2d7324;
-}
-
 .bg-home {
     background-image: url("../img/spezieria.jpg");
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
+}
+
+.bg-green-dark {
+    background-color: #2d7324;
 }
 
 .bg-green-light {
@@ -36,6 +36,7 @@ body {
 .text-dark {
     color: #1a1f15;
 }
+
 /*padding*/
 .padding-s {
     padding: 10px
@@ -105,5 +106,12 @@ a:active {
     text-decoration: underline;
 }
 
+/*logo size*/
+.size-m {
+  width: 80px;
+} 
 
-
+/*card size*/
+.size-s {
+  width: 18rem;
+} 
