@@ -16,10 +16,10 @@ body {
     background-repeat: no-repeat;
     height: 100%;
 }
-
+/*
 .bg-green-dark {
     background-color: #2d7324;
-}
+}*/
 
 .bg-green-light {
     background-color: #79b86c;
@@ -38,6 +38,10 @@ body {
 }
 
 /*padding*/
+.padding-xs {
+    padding: 5px
+}
+
 .padding-s {
     padding: 10px
 }
@@ -89,6 +93,11 @@ body {
   transform: translate(-50%, -50%);
 } 
 
+/*Align text*/
+.text-l {
+  text-align: left;
+}
+
 /*Links*/
 a:link {
   text-decoration: none;
@@ -115,3 +124,14 @@ a:active {
 .size-s {
   width: 18rem;
 } 
+ 
+/*transparent image text*/
+.container .content {
+    position: absolute; /* Position the background text */
+     /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.3); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 120%; /* Full width */
+    padding: 20px; /* Some padding */
+}

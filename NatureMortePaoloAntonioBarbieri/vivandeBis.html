@@ -13,17 +13,36 @@
 </head>
 
 <body>
+  <!-- header -->
+  <header class="container-fluid bg-green-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-1">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/favicon.png" alt="Logo" class="padding-s size-m">
+          </a>
+        </div>
+        <div class="col-md-3 container-fluid text-center text-dark padding-s">
+          <a class="text-dark" href="index.html">
+          <h4>Nature Morte di Paolo Antonio Barbieri</h4>
+          </a>
+        </div>
+        <div class="col-md-4">
+        </div>
+      </div>
+    </div>
+  </header>
+
   <!--navbar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-green-light">
-    <a class="navbar-brand" href="index.html">
-      <img src="img/favicon.png" alt="Logo" class="padding-s size-m">
-    </a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-link active" href="#">Home</a>
+      <a class="nav-link active" href="index.html">Home</a>
       <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
       <ul class="navbar-nav">
         <li class="nav-item dropdown">
@@ -32,7 +51,7 @@
           </a>
           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
             <li><a class="dropdown-item" href="vivande.html">Vivande</a></li>
-            <li><a class="dropdown-item" href="#">Argenti</a></li>
+            <li><a class="dropdown-item" href="#">Oggetti</a></li>
             <li><a class="dropdown-item" href="#">Selvaggina</a></li>
           </ul>
         </li>
@@ -45,18 +64,17 @@
 </nav>
 
 <!--Breadcrumbs-->
-<nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb">
+<nav aria-label="breadcrumb">
   <div class="padding-s bg-gray">
     <ol class="breadcrumb">
       <li class="breadcrumb-item text-light"><a class="text-light" href="index.html">Home</a></li>
-      <li class="breadcrumb-item active text-light" aria-current="page">Vivande</li>
-      
+      <li class="breadcrumb-item active text-light" aria-current="page">Vivande</li>  
     </ol>
   </div>
 </nav>
 
 <!-- header -->
-<header class="bg-gray container-fluid padding-xl">
+<header class="bg-gray container-fluid padding-l">
   <div class="text-center txt-light container" class="bg">
     <div class="centered">
       <h2>Dipinti con soggetto:</h2>
@@ -103,8 +121,9 @@
     </div>
   </section>
 
-  <section class="bg-green-dark padding-m container-fluid">
-   <!--<nav aria-label="Page navigation example"-->
+  <!--pagination-->
+  <section class="bg-gray padding-m container-fluid">
+    <nav>
       <ul class="pagination justify-content-center margin-bottom">
         <li class="page-item">
         <a class="page-link text-dark" href="vivande.html" aria-label="Previous">
@@ -120,7 +139,7 @@
         </a>
         </li>
       </ul>
-</nav>
+    </nav>
   </section>
 
   <!-- pre-footer -->
@@ -131,12 +150,13 @@
   </section>
 
 </main>
+
 <!-- footer -->
 <footer class="bg-gray text-light padding-m container-fluid text-center">
-        © Copyright (c) 2021 by /DH.arc - Digital Humanities Advanced Research
-        Centre.
+  <p>©Copyright Clara Tassinari 
+    <a href="webProjectPlan.html" class="text-light">Web Project Plan</a>
+  </p>
 </footer>
-
 
 <script src="js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

@@ -13,11 +13,30 @@
 </head>
 
 <body>
+  <!-- header -->
+  <header class="container-fluid bg-green-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-1">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/favicon.png" alt="Logo" class="padding-s size-m">
+          </a>
+        </div>
+        <div class="col-md-3 container-fluid text-center text-dark padding-s">
+          <a class="text-dark" href="index.html">
+          <h4>Nature Morte di Paolo Antonio Barbieri</h4>
+          </a>
+        </div>
+        <div class="col-md-4">
+        </div>
+      </div>
+    </div>
+  </header>
+
   <!--navbar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-green-light">
-    <a class="navbar-brand" href="index.html">
-      <img src="img/favicon.png" alt="Logo" class="padding-s size-m">
-    </a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,20 +51,20 @@
           </a>
           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
             <li><a class="dropdown-item" href="vivande.html">Vivande</a></li>
-            <li><a class="dropdown-item" href="#">Argenti</a></li>
+            <li><a class="dropdown-item" href="#">Oggetti</a></li>
             <li><a class="dropdown-item" href="#">Selvaggina</a></li>
           </ul>
         </li>
       </ul>
     </div>
-      <a class="nav-link" href="#">Artista</a>
+      <a class="nav-link" href="artista.html">Artista</a>
       <a class="nav-link" href="#">Mappa</a>
     </div>
   </div>
 </nav>
 
 <!--Breadcrumbs-->
-<nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb">
+<nav class="bs-breadcrumb-divider" aria-label="breadcrumb">
   <div class="padding-s bg-gray text-light">
     <ol class="breadcrumb">
       <li class="breadcrumb-item text-light"><a class="text-light" href="index.html">Home</a></li>
@@ -96,10 +115,12 @@
   </section>
 
 </main>
+
 <!-- footer -->
 <footer class="bg-gray text-light padding-m container-fluid text-center">
-        © Copyright (c) 2021 by /DH.arc - Digital Humanities Advanced Research
-        Centre.
+  <p>©Copyright Clara Tassinari 
+    <a href="webProjectPlan.html" class="text-light">Web Project Plan</a>
+  </p>
 </footer>
 
 
